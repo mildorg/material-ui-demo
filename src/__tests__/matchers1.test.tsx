@@ -52,6 +52,6 @@ describe("jest 匹配器", () => {
   }
 
   test("toThrow 匹配器 ", () => {
-    expect(throwError).toThrow(/this is a old error/);
+    expect(throwError).toThrow(/this is a new error/);
   });
 });
